@@ -1,0 +1,14 @@
+[
+  {
+    "record_id": "minutes-51",
+    "source": "transcript",
+    "revision": 1,
+    "text": "王工负责周五前完成接口核对，陈经理建议再评估预算。"
+  },
+  {
+    "record_id": "minutes-51-fix",
+    "source": "transcript-correction",
+    "revision": 2,
+    "text": "更正：王工建议评估接口核对方案，尚未确定负责人。"
+  }
+]
