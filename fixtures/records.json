@@ -1,17 +1,20 @@
 [
-  [
-    "minutes-52",
-    "transcript",
-    "乔经理：如果供货商确认周三收货，生产再排到周五。王工先把夹具设计稿发给我。"
-  ],
-  [
-    "minutes-53",
-    "decision-notes",
-    "王工交付设计稿。乔经理尚未确认供货，请暂缓下单。生产有两套可考虑的安排，先不确认。"
-  ],
-  [
-    "minutes-54",
-    "decision-notes",
-    "周工：收到供货确认后用 P1，不然等乔经理确认外协调度。"
-  ]
+  {
+    "record_id": "minutes-52",
+    "source": "transcript",
+    "revision": 1,
+    "text": "乔经理：如果供货商确认周三收货，生产再排到周五。王工先把夹具设计稿发给我。"
+  },
+  {
+    "record_id": "minutes-53",
+    "source": "decision-notes",
+    "revision": 1,
+    "text": "王工交付设计稿。乔经理尚未确认供货，请暂缓下单。生产有两套可考虑的安排，先不确认。"
+  },
+  {
+    "record_id": "minutes-54",
+    "source": "decision-notes",
+    "revision": 1,
+    "text": "周工：收到供货确认后用 P1，不然等乔经理确认外协调度。"
+  }
 ]
