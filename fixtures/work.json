@@ -1,0 +1,54 @@
+{
+  "commitments": [
+    {
+      "id": "DESIGN",
+      "speaker": "王工",
+      "owner": "设计",
+      "decision": "确认",
+      "prerequisites": []
+    },
+    {
+      "id": "ORDER",
+      "speaker": "乔经理",
+      "owner": "采购",
+      "decision": "确认",
+      "prerequisites": [
+        "DESIGN"
+      ]
+    },
+    {
+      "id": "LINE-A",
+      "speaker": "周工",
+      "owner": "生产",
+      "decision": "确认",
+      "prerequisites": [
+        "ORDER"
+      ],
+      "station": "P1",
+      "slot": "周五下午"
+    },
+    {
+      "id": "LINE-B",
+      "speaker": "周工",
+      "owner": "生产",
+      "decision": "建议",
+      "prerequisites": [],
+      "station": "P1",
+      "slot": "周五上午"
+    },
+    {
+      "id": "LINE-C",
+      "speaker": "周工",
+      "owner": "生产",
+      "decision": "确认",
+      "prerequisites": [
+        "DESIGN"
+      ],
+      "station": "P1",
+      "slot": "周五上午"
+    }
+  ],
+  "delivered": [
+    "DESIGN"
+  ]
+}

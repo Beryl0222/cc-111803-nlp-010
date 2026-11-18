@@ -8,6 +8,8 @@
 
 ## 运行
 
+运行 `PYTHONPATH=src python -m nlp_meeting_commitment_register.desk_cli` 查看已经确认的承诺是否能占用工位。样例按登记的出席人员核对承诺权限。前置交付以实际收件登记为准，可用工位取排期表。
+
 从项目根目录执行 `PYTHONPATH=src python -m nlp_meeting_commitment_register.cli ingest fixtures/records.json` 导入样例，随后执行 `PYTHONPATH=src python -m nlp_meeting_commitment_register.cli list` 查看记录。工作数据写入 `var/records.json`。业务查询使用 fixtures/business.json 中的初始资料，约定见 fixtures/business-contract.md。执行 PYTHONPATH=src python -m nlp_meeting_commitment_register.cli business 可查看当前业务目录结果。
 
 样例为本地合成文本。记录包含来源、修订号和原文，当前工作区对空白做统一处理，并提供字符及英文词项切分。
