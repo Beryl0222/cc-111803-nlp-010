@@ -1,14 +1,17 @@
 [
-  {
-    "record_id": "minutes-51",
-    "source": "transcript",
-    "revision": 1,
-    "text": "王工负责周五前完成接口核对，陈经理建议再评估预算。"
-  },
-  {
-    "record_id": "minutes-51-fix",
-    "source": "transcript-correction",
-    "revision": 2,
-    "text": "更正：王工建议评估接口核对方案，尚未确定负责人。"
-  }
+  [
+    "minutes-52",
+    "transcript",
+    "乔经理：如果供货商确认周三收货，生产再排到周五。王工先把夹具设计稿发给我。"
+  ],
+  [
+    "minutes-53",
+    "decision-notes",
+    "王工交付设计稿。乔经理尚未确认供货，请暂缓下单。生产有两套可考虑的安排，先不确认。"
+  ],
+  [
+    "minutes-54",
+    "decision-notes",
+    "周工：收到供货确认后用 P1，不然等乔经理确认外协调度。"
+  ]
 ]
