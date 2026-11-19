@@ -1,0 +1,78 @@
+{
+  "commitments": [
+    {
+      "id": "DESIGN",
+      "speaker": "王工",
+      "owner": "设计",
+      "decision": "确认",
+      "quote": "王工交付设计稿。",
+      "source": "minutes-53"
+    },
+    {
+      "id": "ORDER",
+      "speaker": "乔经理",
+      "owner": "采购",
+      "decision": "确认",
+      "prerequisites": [
+        "DESIGN"
+      ],
+      "conditions": [
+        {
+          "id": "ARRIVE",
+          "kind": "到货",
+          "text": "供应商周三到货",
+          "status": "承诺",
+          "quote": "设计先估一下，若供应商承诺周三到货，生产再排周五。",
+          "source": "minutes-52"
+        }
+      ]
+    },
+    {
+      "id": "LINE-A",
+      "speaker": "周工",
+      "owner": "生产",
+      "decision": "确认",
+      "prerequisites": [
+        "ORDER"
+      ],
+      "station": "P1",
+      "slot": "周五下午",
+      "route_group": "LINE",
+      "quote": "收到供货确认后用 P1。",
+      "source": "minutes-54"
+    },
+    {
+      "id": "LINE-B",
+      "speaker": "周工",
+      "owner": "生产",
+      "decision": "建议",
+      "prerequisites": [],
+      "station": "P1",
+      "slot": "周五上午",
+      "route_group": "LINE",
+      "quote": "生产有两套可考虑的安排，先不确认。",
+      "source": "minutes-53"
+    },
+    {
+      "id": "PREP",
+      "speaker": "周工",
+      "owner": "生产",
+      "decision": "确认",
+      "preparation": true,
+      "quote": "生产有两套可考虑的安排，先不确认。",
+      "source": "minutes-53"
+    }
+  ],
+  "route_groups": [
+    {
+      "id": "LINE",
+      "options": [
+        "LINE-A",
+        "LINE-B"
+      ]
+    }
+  ],
+  "delivered": [
+    "DESIGN"
+  ]
+}
